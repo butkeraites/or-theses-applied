@@ -1,0 +1,111 @@
+book 0: specialty, cert=unbounded, profit bilevel=3485 cp=2660 match=895
+book 20: bounded, cert=bounded, profit bilevel=2455 cp=1869 match=495
+book 40: specialty, cert=unbounded, profit bilevel=2923 cp=2167 match=672
+book 60: capacity, cert=unbounded, profit bilevel=1930 cp=1457 match=512
+book 80: capacity, cert=unbounded, profit bilevel=2644 cp=2014 match=542
+book 100: bounded, cert=bounded, profit bilevel=3337 cp=2523 match=478
+book 120: capacity, cert=unbounded, profit bilevel=2684 cp=2008 match=565
+book 140: capacity, cert=unbounded, profit bilevel=3706 cp=2755 match=912
+book 160: specialty, cert=unbounded, profit bilevel=3349 cp=2518 match=739
+book 180: capacity, cert=unbounded, profit bilevel=3310 cp=2511 match=776
+{
+ "books": 200,
+ "restaurants_per_book": 8,
+ "causes": {
+  "bounded": 59,
+  "specialty": 41,
+  "capacity": 100
+ },
+ "cert_agrees_with_truth": 200,
+ "cert_captive_matches_truth": 141,
+ "unbounded_books": 141,
+ "per_item_check_caught": 41,
+ "hpr_unbounded_books": 200,
+ "ray_profit_increasing": 141,
+ "cert_secs_mean": 0.015252645220025443,
+ "cert_secs_max": 0.02591062500141561,
+ "truth_secs_mean": 0.0004272749292431399,
+ "cap_profit_mean": {
+  "unbounded": {
+   "1.5": 3041.174539007097,
+   "2.0": 3052.0681560283747,
+   "3.0": 3090.62085106384,
+   "5.0": 3410.742411347533,
+   "10.0": 5092.617517730512
+  },
+  "bounded": {
+   "1.5": 2768.0723728813614,
+   "2.0": 2768.0723728813614,
+   "3.0": 2768.0723728813673,
+   "5.0": 2768.072372881371,
+   "10.0": 2768.0723728813846
+  }
+ },
+ "books_priced_at_cap": {
+  "bounded": {
+   "1.5": 0,
+   "2.0": 0,
+   "3.0": 0,
+   "5.0": 0,
+   "10.0": 0
+  },
+  "specialty": {
+   "1.5": 41,
+   "2.0": 41,
+   "3.0": 41,
+   "5.0": 41,
+   "10.0": 41
+  },
+  "capacity": {
+   "1.5": 0,
+   "2.0": 0,
+   "3.0": 2,
+   "5.0": 21,
+   "10.0": 51
+  }
+ },
+ "fixed_cert": {
+  "bounded": 200,
+  "unbounded": 0,
+  "infeasible": 0
+ },
+ "fixed_cert_secs_mean": 0.0147095141740283,
+ "fixed": {
+  "bilevel": {
+   "profit": 2949.154933079139,
+   "rest_cost": 14073.99455000001,
+   "share": 0.9997490136007913,
+   "accounts_buying": 8.0
+  },
+  "cost_plus": {
+   "profit": 2224.8591499999993,
+   "rest_cost": 13349.154899999998,
+   "share": 1.0,
+   "accounts_buying": 8.0
+  },
+  "match": {
+   "profit": 680.3743798946093,
+   "rest_cost": 14220.391200000002,
+   "share": 0.3897183709577087,
+   "accounts_buying": 8.0
+  },
+  "bilevel_pessimistic": {
+   "profit": 2426.7925519150513,
+   "rest_cost": 14073.99455000001,
+   "share": 0.7654627313322591,
+   "accounts_buying": 7.0
+  },
+  "bilevel_cushion_1pct": {
+   "profit": 2808.16968219262,
+   "rest_cost": 13933.280233500012,
+   "share": 0.999481395434166,
+   "accounts_buying": 8.0
+  }
+ },
+ "bilevel_beats_match": 200,
+ "bilevel_beats_cost_plus": 200,
+ "cushion_beats_cost_plus": 200,
+ "bilevel_ties_match": 0,
+ "max_abs_model_vs_follower_profit": 0.01859611118743487,
+ "runtime_secs": 27.666723917005584
+}

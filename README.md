@@ -9,6 +9,10 @@ that every number in the write-up comes from.
 |---|---|---|---|
 | 1 | Bart van Rossum, *Optimising Fair Work Allocation: Applications in Railway Crew Planning* (Erasmus University Rotterdam, 2025; EURO Doctoral Dissertation Award 2026 finalist) | Restaurant server schedules over the 2026 Braves season | [Who closes on Friday?](https://bisdecisions.com/insights/who-closes-on-friday) |
 | 2 | Fabian Akkerman, *Machine Learning for Sequential Decisions in Logistics* (University of Twente, 2025; EURO Doctoral Dissertation Award 2026 winner) | Restocking at a pharmacy: regular order or rush order | Under the author's review; see `02-akkerman-pharmacy-dual-sourcing/README.md` |
+| 3 | Alexandre Florio, stochastic vehicle routing (University of Vienna, 2019; EURO Doctoral Dissertation Award 2021 winner) | Septic pump-out trucks and the ten-hour day | Under the author's review |
+| 4 | Hannah Bakker, *Data and Decisions in Discrete Location* (KIT, 2024; EURO Doctoral Dissertation Award 2025 finalist) | Café siting in Cobb County, Georgia | Under the author's review |
+| 5 | Bárbara Rodrigues, linear bilevel optimization (University of Edinburgh, 2025; EURO Doctoral Dissertation Award 2026 finalist) | Pricing for restaurants that can't switch supplier | Under the author's review |
+| 6 | Tao Wen, information propagation and source localization (University of Manchester, 2025; EURO Doctoral Dissertation Award 2026 finalist) | Tracing a bad lot in a supply chain | Under the author's review |
 
 The applications are mine, not the thesis authors'. Any error in them is mine too.
 
@@ -46,6 +50,12 @@ thesis (Akkerman, Knofius, van der Heijden & Mes, IJPR 2025) to an independent p
 choosing between a regular order and a same-day rush order, on six years of real daily sales.
 Details, data source and how to run: the folder's README.
 
+## 03–06
+
+Each folder has its own README with the data sources, the model and how to run it:
+`03-florio-septic-routes/`, `04-bakker-cafe-siting/`, `05-rodrigues-captive-pricing/`,
+`06-wen-supply-trace/`.
+
 ## Provenance
 
 The code, analysis and write-ups were produced with AI assistance (Claude, Anthropic) under
@@ -54,5 +64,7 @@ ran locally.
 
 ## License
 
-Code: MIT. Results and text: CC BY 4.0. MLB schedule data belongs to its owner and is
-included only as a cache of a public API response.
+Code: MIT. Results and text: CC BY 4.0. Third-party data keeps its own terms: MLB schedule
+data is included only as a cache of a public API response; the OpenStreetMap-derived files in
+`04-bakker-cafe-siting/data/` are ODbL (see `LICENSE-DATA.md` there); the pharmacy sales (02)
+and Willems (2008) supply-chain data (06) are downloaded on run, not redistributed.

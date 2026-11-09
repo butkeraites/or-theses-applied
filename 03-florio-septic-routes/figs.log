@@ -1,0 +1,47 @@
+[
+ {
+  "after_job": 1,
+  "next_job": 19,
+  "unload_if_left_below_gal": 200,
+  "next_mean_gal": 1300.0,
+  "min_to_yard_from_here": 27,
+  "min_yard_to_next": 26,
+  "min_direct": 5
+ },
+ {
+  "after_job": 2,
+  "next_job": 16,
+  "unload_if_left_below_gal": 0,
+  "next_mean_gal": 1300.0,
+  "min_to_yard_from_here": 26,
+  "min_yard_to_next": 23,
+  "min_direct": 3
+ },
+ {
+  "after_job": 3,
+  "next_job": 14,
+  "unload_if_left_below_gal": 0,
+  "next_mean_gal": 1300.0,
+  "min_to_yard_from_here": 23,
+  "min_yard_to_next": 9,
+  "min_direct": 14
+ },
+ {
+  "after_job": 4,
+  "next_job": 22,
+  "unload_if_left_below_gal": 450,
+  "next_mean_gal": 1300.0,
+  "min_to_yard_from_here": 9,
+  "min_yard_to_next": 9,
+  "min_direct": 3
+ },
+ {
+  "after_job": 5,
+  "next_job": 5,
+  "unload_if_left_below_gal": 1000,
+  "next_mean_gal": 1300.0,
+  "min_to_yard_from_here": 9,
+  "min_yard_to_next": 6,
+  "min_direct": 6
+ }
+]
