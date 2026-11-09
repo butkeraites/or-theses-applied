@@ -1,0 +1,1274 @@
+{
+ "offline": {
+  "cost_opt/final": {
+   "status": "OPTIMAL",
+   "objective": 1,
+   "bound": 1,
+   "trajectory": [
+    6,
+    7,
+    11,
+    8,
+    11,
+    10,
+    14,
+    12,
+    13,
+    17,
+    21,
+    20,
+    22,
+    18,
+    15,
+    13,
+    14,
+    18,
+    18,
+    19,
+    19,
+    15,
+    15,
+    9,
+    8,
+    1
+   ],
+   "final_cum": [
+    81,
+    81,
+    81,
+    80,
+    81,
+    81,
+    81,
+    81,
+    81,
+    81,
+    81,
+    81
+   ]
+  },
+  "cost_opt/worst": {
+   "status": "OPTIMAL",
+   "objective": 6,
+   "bound": 6,
+   "trajectory": [
+    6,
+    5,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    5,
+    6,
+    5,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    5,
+    6,
+    6,
+    5
+   ],
+   "final_cum": [
+    78,
+    78,
+    82,
+    82,
+    82,
+    83,
+    79,
+    80,
+    82,
+    82,
+    80,
+    83
+   ]
+  },
+  "fair_0.0/final": {
+   "status": "OPTIMAL",
+   "objective": 1,
+   "bound": 1,
+   "trajectory": [
+    2,
+    4,
+    5,
+    4,
+    5,
+    6,
+    7,
+    7,
+    7,
+    7,
+    6,
+    6,
+    6,
+    6,
+    7,
+    8,
+    6,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    3,
+    1
+   ],
+   "final_cum": [
+    80,
+    81,
+    81,
+    81,
+    81,
+    81,
+    81,
+    81,
+    81,
+    81,
+    81,
+    81
+   ]
+  },
+  "fair_0.0/worst": {
+   "status": "OPTIMAL",
+   "objective": 2,
+   "bound": 2,
+   "trajectory": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    2
+   ],
+   "final_cum": [
+    80,
+    81,
+    81,
+    82,
+    80,
+    81,
+    82,
+    82,
+    82,
+    80,
+    80,
+    80
+   ]
+  }
+ },
+ "week": {
+  "start": "2026-09-07",
+  "cheap": {
+   "hours": 308,
+   "sour": [
+    3,
+    2,
+    3,
+    0,
+    8,
+    0,
+    6,
+    5,
+    9,
+    9,
+    4,
+    3
+   ]
+  },
+  "even": {
+   "hours": 308,
+   "sour": [
+    4,
+    4,
+    4,
+    4,
+    5,
+    5,
+    5,
+    4,
+    4,
+    5,
+    4,
+    4
+   ]
+  },
+  "nights": {
+   "2026-09-07": {
+    "date": "2026-09-07",
+    "game_hour": null,
+    "demand": [
+     1,
+     3,
+     3,
+     3,
+     2,
+     2,
+     2,
+     4,
+     4,
+     4,
+     4,
+     2,
+     2
+    ],
+    "cheap": [
+     {
+      "worker": 7,
+      "start": 10,
+      "len": 4,
+      "week_sour": 5
+     },
+     {
+      "worker": 2,
+      "start": 11,
+      "len": 4,
+      "week_sour": 3
+     },
+     {
+      "worker": 5,
+      "start": 11,
+      "len": 6,
+      "week_sour": 0
+     },
+     {
+      "worker": 6,
+      "start": 15,
+      "len": 6,
+      "week_sour": 6
+     },
+     {
+      "worker": 10,
+      "start": 17,
+      "len": 4,
+      "week_sour": 4
+     },
+     {
+      "worker": 8,
+      "start": 17,
+      "len": 6,
+      "week_sour": 9
+     },
+     {
+      "worker": 9,
+      "start": 17,
+      "len": 6,
+      "week_sour": 9
+     }
+    ],
+    "cheap_coverage": [
+     1,
+     3,
+     3,
+     3,
+     2,
+     2,
+     2,
+     4,
+     4,
+     4,
+     4,
+     2,
+     2
+    ],
+    "even": [
+     {
+      "worker": 2,
+      "start": 10,
+      "len": 4,
+      "week_sour": 4
+     },
+     {
+      "worker": 3,
+      "start": 11,
+      "len": 4,
+      "week_sour": 4
+     },
+     {
+      "worker": 4,
+      "start": 11,
+      "len": 4,
+      "week_sour": 5
+     },
+     {
+      "worker": 5,
+      "start": 15,
+      "len": 4,
+      "week_sour": 5
+     },
+     {
+      "worker": 10,
+      "start": 15,
+      "len": 8,
+      "week_sour": 4
+     },
+     {
+      "worker": 8,
+      "start": 17,
+      "len": 4,
+      "week_sour": 4
+     },
+     {
+      "worker": 11,
+      "start": 17,
+      "len": 4,
+      "week_sour": 4
+     },
+     {
+      "worker": 7,
+      "start": 19,
+      "len": 4,
+      "week_sour": 4
+     }
+    ],
+    "even_coverage": [
+     1,
+     3,
+     3,
+     3,
+     2,
+     2,
+     2,
+     4,
+     4,
+     4,
+     4,
+     2,
+     2
+    ]
+   },
+   "2026-09-08": {
+    "date": "2026-09-08",
+    "game_hour": 19,
+    "demand": [
+     1,
+     3,
+     3,
+     3,
+     2,
+     2,
+     2,
+     5,
+     5,
+     4,
+     4,
+     4,
+     4
+    ],
+    "cheap": [
+     {
+      "worker": 5,
+      "start": 10,
+      "len": 4,
+      "week_sour": 0
+     },
+     {
+      "worker": 1,
+      "start": 11,
+      "len": 4,
+      "week_sour": 2
+     },
+     {
+      "worker": 10,
+      "start": 11,
+      "len": 8,
+      "week_sour": 4
+     },
+     {
+      "worker": 4,
+      "start": 15,
+      "len": 8,
+      "week_sour": 8
+     },
+     {
+      "worker": 7,
+      "start": 17,
+      "len": 6,
+      "week_sour": 5
+     },
+     {
+      "worker": 8,
+      "start": 17,
+      "len": 6,
+      "week_sour": 9
+     },
+     {
+      "worker": 9,
+      "start": 17,
+      "len": 6,
+      "week_sour": 9
+     }
+    ],
+    "cheap_coverage": [
+     1,
+     3,
+     3,
+     3,
+     2,
+     2,
+     2,
+     5,
+     5,
+     4,
+     4,
+     4,
+     4
+    ],
+    "even": [
+     {
+      "worker": 2,
+      "start": 10,
+      "len": 4,
+      "week_sour": 4
+     },
+     {
+      "worker": 3,
+      "start": 11,
+      "len": 8,
+      "week_sour": 4
+     },
+     {
+      "worker": 6,
+      "start": 11,
+      "len": 8,
+      "week_sour": 5
+     },
+     {
+      "worker": 5,
+      "start": 17,
+      "len": 6,
+      "week_sour": 5
+     },
+     {
+      "worker": 9,
+      "start": 17,
+      "len": 6,
+      "week_sour": 5
+     },
+     {
+      "worker": 11,
+      "start": 17,
+      "len": 6,
+      "week_sour": 4
+     },
+     {
+      "worker": 1,
+      "start": 19,
+      "len": 4,
+      "week_sour": 4
+     }
+    ],
+    "even_coverage": [
+     1,
+     3,
+     3,
+     3,
+     2,
+     2,
+     2,
+     5,
+     5,
+     4,
+     4,
+     4,
+     4
+    ]
+   },
+   "2026-09-09": {
+    "date": "2026-09-09",
+    "game_hour": 19,
+    "demand": [
+     1,
+     3,
+     3,
+     3,
+     2,
+     2,
+     2,
+     5,
+     5,
+     4,
+     4,
+     4,
+     4
+    ],
+    "cheap": [
+     {
+      "worker": 0,
+      "start": 10,
+      "len": 4,
+      "week_sour": 3
+     },
+     {
+      "worker": 5,
+      "start": 11,
+      "len": 4,
+      "week_sour": 0
+     },
+     {
+      "worker": 3,
+      "start": 11,
+      "len": 8,
+      "week_sour": 0
+     },
+     {
+      "worker": 1,
+      "start": 15,
+      "len": 8,
+      "week_sour": 2
+     },
+     {
+      "worker": 4,
+      "start": 17,
+      "len": 6,
+      "week_sour": 8
+     },
+     {
+      "worker": 8,
+      "start": 17,
+      "len": 6,
+      "week_sour": 9
+     },
+     {
+      "worker": 9,
+      "start": 17,
+      "len": 6,
+      "week_sour": 9
+     }
+    ],
+    "cheap_coverage": [
+     1,
+     3,
+     3,
+     3,
+     2,
+     2,
+     2,
+     5,
+     5,
+     4,
+     4,
+     4,
+     4
+    ],
+    "even": [
+     {
+      "worker": 7,
+      "start": 10,
+      "len": 4,
+      "week_sour": 4
+     },
+     {
+      "worker": 0,
+      "start": 11,
+      "len": 4,
+      "week_sour": 4
+     },
+     {
+      "worker": 9,
+      "start": 11,
+      "len": 4,
+      "week_sour": 5
+     },
+     {
+      "worker": 8,
+      "start": 15,
+      "len": 4,
+      "week_sour": 4
+     },
+     {
+      "worker": 4,
+      "start": 15,
+      "len": 8,
+      "week_sour": 5
+     },
+     {
+      "worker": 1,
+      "start": 17,
+      "len": 6,
+      "week_sour": 4
+     },
+     {
+      "worker": 6,
+      "start": 17,
+      "len": 6,
+      "week_sour": 5
+     },
+     {
+      "worker": 11,
+      "start": 17,
+      "len": 6,
+      "week_sour": 4
+     }
+    ],
+    "even_coverage": [
+     1,
+     3,
+     3,
+     3,
+     2,
+     2,
+     2,
+     5,
+     5,
+     4,
+     4,
+     4,
+     4
+    ]
+   },
+   "2026-09-10": {
+    "date": "2026-09-10",
+    "game_hour": 12,
+    "demand": [
+     1,
+     3,
+     4,
+     4,
+     3,
+     3,
+     3,
+     5,
+     5,
+     4,
+     4,
+     2,
+     2
+    ],
+    "cheap": [
+     {
+      "worker": 2,
+      "start": 10,
+      "len": 4,
+      "week_sour": 3
+     },
+     {
+      "worker": 11,
+      "start": 11,
+      "len": 4,
+      "week_sour": 3
+     },
+     {
+      "worker": 10,
+      "start": 11,
+      "len": 8,
+      "week_sour": 4
+     },
+     {
+      "worker": 0,
+      "start": 12,
+      "len": 6,
+      "week_sour": 3
+     },
+     {
+      "worker": 6,
+      "start": 15,
+      "len": 6,
+      "week_sour": 6
+     },
+     {
+      "worker": 7,
+      "start": 17,
+      "len": 4,
+      "week_sour": 5
+     },
+     {
+      "worker": 4,
+      "start": 17,
+      "len": 6,
+      "week_sour": 8
+     },
+     {
+      "worker": 9,
+      "start": 17,
+      "len": 6,
+      "week_sour": 9
+     }
+    ],
+    "cheap_coverage": [
+     1,
+     3,
+     4,
+     4,
+     3,
+     3,
+     3,
+     6,
+     5,
+     4,
+     4,
+     2,
+     2
+    ],
+    "even": [
+     {
+      "worker": 9,
+      "start": 10,
+      "len": 4,
+      "week_sour": 5
+     },
+     {
+      "worker": 4,
+      "start": 11,
+      "len": 4,
+      "week_sour": 5
+     },
+     {
+      "worker": 1,
+      "start": 11,
+      "len": 8,
+      "week_sour": 4
+     },
+     {
+      "worker": 5,
+      "start": 12,
+      "len": 8,
+      "week_sour": 5
+     },
+     {
+      "worker": 0,
+      "start": 15,
+      "len": 8,
+      "week_sour": 4
+     },
+     {
+      "worker": 7,
+      "start": 17,
+      "len": 4,
+      "week_sour": 4
+     },
+     {
+      "worker": 10,
+      "start": 17,
+      "len": 4,
+      "week_sour": 4
+     },
+     {
+      "worker": 8,
+      "start": 19,
+      "len": 4,
+      "week_sour": 4
+     }
+    ],
+    "even_coverage": [
+     1,
+     3,
+     4,
+     4,
+     3,
+     3,
+     3,
+     5,
+     5,
+     5,
+     4,
+     2,
+     2
+    ]
+   },
+   "2026-09-11": {
+    "date": "2026-09-11",
+    "game_hour": 19,
+    "demand": [
+     1,
+     3,
+     3,
+     3,
+     2,
+     2,
+     2,
+     6,
+     6,
+     5,
+     5,
+     5,
+     5
+    ],
+    "cheap": [
+     {
+      "worker": 0,
+      "start": 10,
+      "len": 4,
+      "week_sour": 3
+     },
+     {
+      "worker": 3,
+      "start": 11,
+      "len": 4,
+      "week_sour": 0
+     },
+     {
+      "worker": 5,
+      "start": 11,
+      "len": 8,
+      "week_sour": 0
+     },
+     {
+      "worker": 8,
+      "start": 15,
+      "len": 8,
+      "week_sour": 9
+     },
+     {
+      "worker": 2,
+      "start": 17,
+      "len": 6,
+      "week_sour": 3
+     },
+     {
+      "worker": 6,
+      "start": 17,
+      "len": 6,
+      "week_sour": 6
+     },
+     {
+      "worker": 7,
+      "start": 17,
+      "len": 6,
+      "week_sour": 5
+     },
+     {
+      "worker": 11,
+      "start": 17,
+      "len": 6,
+      "week_sour": 3
+     }
+    ],
+    "cheap_coverage": [
+     1,
+     3,
+     3,
+     3,
+     2,
+     2,
+     2,
+     6,
+     6,
+     5,
+     5,
+     5,
+     5
+    ],
+    "even": [
+     {
+      "worker": 5,
+      "start": 10,
+      "len": 4,
+      "week_sour": 5
+     },
+     {
+      "worker": 1,
+      "start": 11,
+      "len": 8,
+      "week_sour": 4
+     },
+     {
+      "worker": 2,
+      "start": 11,
+      "len": 8,
+      "week_sour": 4
+     },
+     {
+      "worker": 3,
+      "start": 17,
+      "len": 6,
+      "week_sour": 4
+     },
+     {
+      "worker": 4,
+      "start": 17,
+      "len": 6,
+      "week_sour": 5
+     },
+     {
+      "worker": 6,
+      "start": 17,
+      "len": 6,
+      "week_sour": 5
+     },
+     {
+      "worker": 7,
+      "start": 17,
+      "len": 6,
+      "week_sour": 4
+     },
+     {
+      "worker": 10,
+      "start": 19,
+      "len": 4,
+      "week_sour": 4
+     }
+    ],
+    "even_coverage": [
+     1,
+     3,
+     3,
+     3,
+     2,
+     2,
+     2,
+     6,
+     6,
+     5,
+     5,
+     5,
+     5
+    ]
+   },
+   "2026-09-12": {
+    "date": "2026-09-12",
+    "game_hour": 19,
+    "demand": [
+     1,
+     3,
+     3,
+     3,
+     2,
+     2,
+     2,
+     6,
+     6,
+     5,
+     5,
+     5,
+     5
+    ],
+    "cheap": [
+     {
+      "worker": 1,
+      "start": 10,
+      "len": 4,
+      "week_sour": 2
+     },
+     {
+      "worker": 7,
+      "start": 11,
+      "len": 8,
+      "week_sour": 5
+     },
+     {
+      "worker": 11,
+      "start": 11,
+      "len": 8,
+      "week_sour": 3
+     },
+     {
+      "worker": 4,
+      "start": 17,
+      "len": 6,
+      "week_sour": 8
+     },
+     {
+      "worker": 6,
+      "start": 17,
+      "len": 6,
+      "week_sour": 6
+     },
+     {
+      "worker": 9,
+      "start": 17,
+      "len": 6,
+      "week_sour": 9
+     },
+     {
+      "worker": 10,
+      "start": 17,
+      "len": 6,
+      "week_sour": 4
+     },
+     {
+      "worker": 0,
+      "start": 19,
+      "len": 4,
+      "week_sour": 3
+     }
+    ],
+    "cheap_coverage": [
+     1,
+     3,
+     3,
+     3,
+     2,
+     2,
+     2,
+     6,
+     6,
+     5,
+     5,
+     5,
+     5
+    ],
+    "even": [
+     {
+      "worker": 1,
+      "start": 10,
+      "len": 4,
+      "week_sour": 4
+     },
+     {
+      "worker": 3,
+      "start": 11,
+      "len": 4,
+      "week_sour": 4
+     },
+     {
+      "worker": 10,
+      "start": 11,
+      "len": 8,
+      "week_sour": 4
+     },
+     {
+      "worker": 6,
+      "start": 15,
+      "len": 4,
+      "week_sour": 5
+     },
+     {
+      "worker": 0,
+      "start": 17,
+      "len": 6,
+      "week_sour": 4
+     },
+     {
+      "worker": 2,
+      "start": 17,
+      "len": 6,
+      "week_sour": 4
+     },
+     {
+      "worker": 5,
+      "start": 17,
+      "len": 6,
+      "week_sour": 5
+     },
+     {
+      "worker": 8,
+      "start": 17,
+      "len": 6,
+      "week_sour": 4
+     },
+     {
+      "worker": 9,
+      "start": 19,
+      "len": 4,
+      "week_sour": 5
+     }
+    ],
+    "even_coverage": [
+     1,
+     3,
+     3,
+     3,
+     2,
+     2,
+     2,
+     6,
+     6,
+     5,
+     5,
+     5,
+     5
+    ]
+   },
+   "2026-09-13": {
+    "date": "2026-09-13",
+    "game_hour": 13,
+    "demand": [
+     1,
+     4,
+     5,
+     5,
+     3,
+     3,
+     3,
+     5,
+     5,
+     4,
+     4,
+     2,
+     2
+    ],
+    "cheap": [
+     {
+      "worker": 2,
+      "start": 10,
+      "len": 4,
+      "week_sour": 3
+     },
+     {
+      "worker": 3,
+      "start": 11,
+      "len": 4,
+      "week_sour": 0
+     },
+     {
+      "worker": 11,
+      "start": 11,
+      "len": 4,
+      "week_sour": 3
+     },
+     {
+      "worker": 4,
+      "start": 11,
+      "len": 8,
+      "week_sour": 8
+     },
+     {
+      "worker": 6,
+      "start": 12,
+      "len": 6,
+      "week_sour": 6
+     },
+     {
+      "worker": 8,
+      "start": 15,
+      "len": 8,
+      "week_sour": 9
+     },
+     {
+      "worker": 1,
+      "start": 17,
+      "len": 4,
+      "week_sour": 2
+     },
+     {
+      "worker": 5,
+      "start": 17,
+      "len": 4,
+      "week_sour": 0
+     },
+     {
+      "worker": 10,
+      "start": 17,
+      "len": 6,
+      "week_sour": 4
+     }
+    ],
+    "cheap_coverage": [
+     1,
+     4,
+     5,
+     5,
+     4,
+     3,
+     3,
+     6,
+     5,
+     4,
+     4,
+     2,
+     2
+    ],
+    "even": [
+     {
+      "worker": 7,
+      "start": 10,
+      "len": 4,
+      "week_sour": 4
+     },
+     {
+      "worker": 8,
+      "start": 11,
+      "len": 4,
+      "week_sour": 4
+     },
+     {
+      "worker": 0,
+      "start": 11,
+      "len": 8,
+      "week_sour": 4
+     },
+     {
+      "worker": 11,
+      "start": 11,
+      "len": 8,
+      "week_sour": 4
+     },
+     {
+      "worker": 6,
+      "start": 12,
+      "len": 4,
+      "week_sour": 5
+     },
+     {
+      "worker": 9,
+      "start": 15,
+      "len": 4,
+      "week_sour": 5
+     },
+     {
+      "worker": 4,
+      "start": 17,
+      "len": 4,
+      "week_sour": 5
+     },
+     {
+      "worker": 10,
+      "start": 17,
+      "len": 4,
+      "week_sour": 4
+     },
+     {
+      "worker": 2,
+      "start": 19,
+      "len": 4,
+      "week_sour": 4
+     },
+     {
+      "worker": 3,
+      "start": 19,
+      "len": 4,
+      "week_sour": 4
+     }
+    ],
+    "even_coverage": [
+     1,
+     4,
+     5,
+     5,
+     4,
+     4,
+     3,
+     5,
+     5,
+     4,
+     4,
+     2,
+     2
+    ]
+   }
+  }
+ }
+}
