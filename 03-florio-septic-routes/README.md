@@ -1,6 +1,6 @@
 # Florio — septic pump-out trucks with a probabilistic 10-hour day
 
-Thesis series #3. Applies the vehicle routing problem with **stochastic demands, optimal
+Thesis series #2. Applies the vehicle routing problem with **stochastic demands, optimal
 restocking and probabilistic duration constraints** to septic-tank pump-out trucks in Cherokee
 County, Georgia. The application is mine (Renan Butkeraites, BIS), not the authors'.
 
@@ -8,7 +8,7 @@ County, Georgia. The application is mine (Renan Butkeraites, BIS), not the autho
 
 - Alexandre De Macedo Florio, *Models and solution methods for stochastic vehicle routing
   problems*, PhD dissertation, Universität Wien, Fakultät für Wirtschaftswissenschaften, 2019
-  (supervisor: Georg Pflug). Record: https://utheses.univie.ac.at/detail/51224/ — the full text is
+  (supervisor: Richard Hartl; Georg Pflug chaired the defense committee). Record: https://utheses.univie.ac.at/detail/51224/ — the full text is
   not publicly released. Winner of the EURO Doctoral Dissertation Award 2021
   (https://www.euro-online.org/web/pages/1696/edda-winner-2021).
 - Part used (item 4 of the thesis abstract): A. M. Florio, R. F. Hartl, S. Minner,
