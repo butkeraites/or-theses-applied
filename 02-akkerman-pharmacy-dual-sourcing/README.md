@@ -1,6 +1,6 @@
 # Thesis series #3: dual sourcing with Deep Controlled Learning, at an independent pharmacy
 
-Code for the BIS post "When is the rush order worth it? An award-winning thesis, tested at a pharmacy" (draft), applying Chapter 3 of Fabian Akkerman's
+Code for the BIS post ["When is the rush order worth it? An award-winning thesis, tested at a pharmacy"](https://bisdecisions.com/insights/when-is-the-rush-order-worth-it), applying Chapter 3 of Fabian Akkerman's
 PhD thesis *Machine Learning for Sequential Decisions in Logistics* (University of Twente,
 2025; EURO Doctoral Dissertation Award 2026) to a new setting. The chapter is joint work with
 Nils Knofius, Matthieu van der Heijden and Martijn Mes, published as "Solving dual sourcing
