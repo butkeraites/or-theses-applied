@@ -11,9 +11,9 @@ were written; the # column is the order of publication.
 | 1 | Bart van Rossum, *Optimising Fair Work Allocation: Applications in Railway Crew Planning* (Erasmus University Rotterdam, 2025; EURO Doctoral Dissertation Award 2026 finalist) | Restaurant server schedules over the 2026 Braves season | [Who closes on Friday?](https://bisdecisions.com/insights/who-closes-on-friday) |
 | 2 | Alexandre Florio, stochastic vehicle routing (University of Vienna, 2019; EURO Doctoral Dissertation Award 2021 winner) | Septic pump-out trucks and the ten-hour day | [Back within ten hours?](https://bisdecisions.com/insights/septic-trucks-and-the-ten-hour-day) · `03-florio-septic-routes/` |
 | 3 | Fabian Akkerman, *Machine Learning for Sequential Decisions in Logistics* (University of Twente, 2025; EURO Doctoral Dissertation Award 2026 winner) | Restocking at a pharmacy: regular order or rush order | [When is the rush order worth it?](https://bisdecisions.com/insights/when-is-the-rush-order-worth-it) · `02-akkerman-pharmacy-dual-sourcing/` |
-| 4 | Hannah Bakker, *Data and Decisions in Discrete Location* (KIT, 2024; EURO Doctoral Dissertation Award 2025 finalist) | Café siting in Cobb County, Georgia | Under the author's review |
-| 5 | Bárbara Rodrigues, linear bilevel optimization (University of Edinburgh, 2025; EURO Doctoral Dissertation Award 2026 finalist) | Pricing for restaurants that can't switch supplier | Under the author's review |
-| 6 | Tao Wen, information propagation and source localization (University of Manchester, 2025; EURO Doctoral Dissertation Award 2026 finalist) | Tracing a bad lot in a supply chain | Under the author's review |
+| 4 | Tao Wen, information propagation and source localization (University of Manchester, 2025; EURO Doctoral Dissertation Award 2026 finalist) | Tracing a bad lot in a supply chain | [Where did the bad batch start?](https://bisdecisions.com/insights/where-did-the-bad-batch-start) · `06-wen-supply-trace/` |
+| – | Hannah Bakker, *Data and Decisions in Discrete Location* (KIT, 2024; EURO Doctoral Dissertation Award 2025 finalist) | Café siting in Cobb County, Georgia | Under the author's review |
+| – | Bárbara Rodrigues, linear bilevel optimization (University of Edinburgh, 2025; EURO Doctoral Dissertation Award 2026 finalist) | Pricing for restaurants that can't switch supplier | Under the author's review |
 
 The applications are mine, not the thesis authors'. Any error in them is mine too.
 
